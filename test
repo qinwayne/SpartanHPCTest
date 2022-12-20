@@ -10,7 +10,7 @@ counting the number of assets to download...
 
 load suite2p 
 activate suite2p before doing any analysis
-
+To activate this new environment, run conda activate suite2p. Afterwards, You should see (suite2p) on the left side of the terminal line.
 
 s2p_fish test command: python3 hpc_pipeline/s2p_fish.py AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70 Spontaneous_output hpc_pipeline/ops_1P_whole.json
 killed - maybe because it uses too much resources?
