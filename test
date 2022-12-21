@@ -1,6 +1,6 @@
 Move data from mediaflux to Spartan file system: (https://wiki-rcs.unimelb.edu.au/display/RCS/unimelb-mf-download)
 module load unimelb-mf-clients
-unimelb-mf-download --out /data/projects/punim0429/fish /projects/proj-5160_scott_lab-1128.4.503/Q4070/SPIM/Raw/Spontaneous/AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70/
+unimelb-mf-download --mf.config /data/projects/punim0429/fish/mflux.cfg --out /data/projects/punim0429/fish /projects/proj-5160_scott_lab-1128.4.503/Q4070/SPIM/Raw/Spontaneous/AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70/
 Host: mediaflux.researchsoftware.unimelb.edu.au
 Port: 443
 Transport: HTTPS
