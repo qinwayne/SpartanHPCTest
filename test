@@ -24,7 +24,7 @@ module load ants/2.4.1
 (after loading ants, pynrrd stopped working for some reasons. to reinstall pynrrd, use pip install git+https://github.com/mhe/pynrrd.git)
 
 in Q4414 folder, MW is the template produced by HD stack. Zbrain is the altas with high quality. The .mat, .gz files are the mapping between the template and altas. For each future fish, only mapping between the fish and template is requried (registeration). A transformation is after by following the established pathway. 
-
+Do not use synchrtron as the prefix because there are files missing (name change)
 check Gille's github for more information
 
 Matlab - post pipeline analysis
