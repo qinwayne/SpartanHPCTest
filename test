@@ -11,6 +11,7 @@ counting the number of assets to download...
 
 load suite2p 
 activate suite2p before doing any analysis
+python -m suite2p to have the GUI version of the suite2p (watch youtube on this topic)
 To activate this new environment, run conda activate suite2p. Afterwards, You should see (suite2p) on the left side of the terminal line.
 
 s2p_fish test command: python3 hpc_pipeline/s2p_fish_sliced.py AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70 Spontaneous_output hpc_pipeline/ops_1P_whole.json
@@ -27,8 +28,15 @@ in Q4414 folder, MW is the template produced by HD stack. Zbrain is the altas wi
 check Gille's github for more information
 
 Matlab - post pipeline analysis
-visualisation folder:
+analysis folder:
 DeltaF2.m (normalisation, very slow. Might be improvable)
 getBrainRegion.m (use data from the ANTs outputs)
 data_loading folder (standard format are the onces with automatically computational built in):
+single fish/all fish
+Autism folder:
+linear regression and other post pipeline studies.
+loadmp2 - index the df data of certain genotype fish based on the types/name/index...
+
+
+make a GUI program to generate a code for pipeline
 
