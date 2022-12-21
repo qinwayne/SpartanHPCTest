@@ -21,3 +21,14 @@ warping using ANTs
 make sure the fish folder name is listed as the default one where includes all parameters
 module load ants/2.4.1
 (after loading ants, pynrrd stopped working for some reasons. to reinstall pynrrd, use pip install git+https://github.com/mhe/pynrrd.git)
+
+in Q4414 folder, MW is the template produced by HD stack. Zbrain is the altas with high quality. The .mat, .gz files are the mapping between the template and altas. For each future fish, only mapping between the fish and template is requried (registeration). A transformation is after by following the established pathway. 
+
+check Gille's github for more information
+
+Matlab - post pipeline analysis
+visualisation folder:
+DeltaF2.m (normalisation, very slow. Might be improvable)
+getBrainRegion.m (use data from the ANTs outputs)
+data_loading folder (standard format are the onces with automatically computational built in):
+
