@@ -1,4 +1,5 @@
 Move data from mediaflux to Spartan file system: (https://wiki-rcs.unimelb.edu.au/display/RCS/unimelb-mf-download)
+module load unimelb-mf-clients
 unimelb-mf-download --out /data/projects/punim0429/fish /projects/proj-5160_scott_lab-1128.4.503/Q4070/SPIM/Raw/Spontaneous/AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70/
 Host: mediaflux.researchsoftware.unimelb.edu.au
 Port: 443
@@ -15,3 +16,8 @@ To activate this new environment, run conda activate suite2p. Afterwards, You sh
 s2p_fish test command: python3 hpc_pipeline/s2p_fish_sliced.py AG_mecp2_spontaneous_20210902_fish17_2Hz_range245_step5_exposure10_power70 Spontaneous_output hpc_pipeline/ops_1P_whole.json
 (the s2p_fish_sliced.py has been updated during the testing session as there is no need for half done job take over in the testing session)
 
+
+warping using ANTs
+make sure the fish folder name is listed as the default one where includes all parameters
+module load ants/2.4.1
+(after loading ants, pynrrd stopped working for some reasons. to reinstall pynrrd, use pip install git+https://github.com/mhe/pynrrd.git)
