@@ -9,6 +9,9 @@ User: wqin1
 Password:
 counting the number of assets to download...
 
+symlink command: python symlink_data.py /data/projects/punim0429/fish/ ../suite2p_symlink_fish05
+The command will automatically search for the spontanous and stimulation folders given the fish 05
+
 load suite2p 
 activate suite2p before doing any analysis
 python -m suite2p to have the GUI version of the suite2p (watch youtube on this topic)
