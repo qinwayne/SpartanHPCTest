@@ -22,6 +22,7 @@ warping using ANTs
 make sure the fish folder name is listed as the default one where includes all parameters
 module load ants/2.4.1
 (after loading ants, pynrrd stopped working for some reasons. to reinstall pynrrd, use pip install git+https://github.com/mhe/pynrrd.git)
+MW (Maya) are fish lying vertically and IF are fish lying horizentally. The prefix need to be carefully chosen!
 
 in Q4414 folder, MW is the template produced by HD stack. Zbrain is the altas with high quality. The .mat, .gz files are the mapping between the template and altas. For each future fish, only mapping between the fish and template is requried (registeration). A transformation is after by following the established pathway. 
 Do not use synchrtron as the prefix because there are files missing (name change)
