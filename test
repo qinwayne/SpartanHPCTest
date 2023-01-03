@@ -9,7 +9,7 @@ User: wqin1
 Password:
 counting the number of assets to download...
 
-symlink command: python symlink_data.py /data/projects/punim0429/fish/ ../suite2p_symlink_fish05
+symlink command: python symlink_data.py /data/gpfs/projects/punim0429/fish/SPIM/Auditory /data/gpfs/projects/punim0429/fish/SPIM/Spontaneous ../SPIM/symlink_fish05
 The command will automatically search for the spontanous and stimulation folders given the fish 05
 
 load suite2p 
